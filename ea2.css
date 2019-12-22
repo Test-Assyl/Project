@@ -1,0 +1,75 @@
+.text{
+    position: absolute;
+    top: 260px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    
+    background: url(https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1999%252C1159%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C928%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252Fb1b68510-d9ce-11e9-bfff-7d08e9db5494%26client%3Da1acac3e1b3290917d92%26signature%3D7599bb1c1206e45864ae9cd7f851727325c39c07&client=amp-blogside-v2&signature=67ed4d7bcf069ddb4472eea3f30c622cce9b068a);
+    background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.intro__title {
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    color: white;
+}
+
+
+.btn {
+    position: absolute;
+    top: 600px;
+    left: 650px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+
+    border: 3px solid white;
+    
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background 0.5s linear, color 0.5s linear;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.intro__suptitle {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+}
